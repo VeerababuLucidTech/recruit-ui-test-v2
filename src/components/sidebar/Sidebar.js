@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import MenuItems from "./SidebarMenu";
-import lucid from '../../assets/lucid.png'
+import LucidLogo from '../../assets/LucidLogo.svg'
 import menu from '../../assets/menu.svg'
 
 const Sidebar = ({ children }) => {
@@ -25,7 +25,7 @@ const Sidebar = ({ children }) => {
             style={{ display: isOpen ? "flex" : "none" }}
             className="logo-text"
           >
-            <img src={lucid} alt="logo"></img>
+            <img src={LucidLogo} alt="logo"></img>
             <h1>Software</h1>
           </div>
           <div style={{ marginLeft: isOpen ? "60px" : "0px" }} className="bars">
