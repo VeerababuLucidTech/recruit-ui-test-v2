@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "name": "varma.b@lucidtechinc.com",
+      "email": "fymojiwuzy@mailinator.com",
+      "password": "varma@201",
+      "id": 1
+    },
+    {
+      "name": "veerababu",
+      "email": "nojyferyvu@mailinator.com",
+      "password": "1234567890",
+      "id": 2
+    },
+    {
+      "fullname": "varma",
+      "businessEmail": "varma@gmail.com",
+      "password": "Varma@201",
+      "contactNumber": "1234567890",
+      "id": 3
+    },
+    {
+      "fullname": "varma",
+      "businessEmail": "sriram@gmail.com",
+      "password": "varma@201",
+      "contactNumber": "1234567890",
+      "id": 4
+    },
+    {
+      "fullname": "varma",
+      "businessEmail": "aaa@gmail.com",
+      "password": "12345678",
+      "contactNumber": "1234567890",
+      "id": 5
+    },
+    {
+      "fullname": "Ram",
+      "businessEmail": "ram@gmail.com",
+      "password": "0000000000",
+      "contactNumber": "1234567890",
+      "id": 6
+    },
+    {
+      "fullName": "Kirk Jordan",
+      "email": "nomifymic@mailinator.com",
+      "password": "Varma@123",
+      "contactNumber": "78798986086",
+      "recaptcha": "",
+      "id": 7
+    },
+    {
+      "fullName": "Kirk Jordan",
+      "email": "b@gmail.com",
+      "password": "Asdf@123",
+      "contactNumber": "1234567890",
+      "recaptcha": "",
+      "id": 8
+    },
+    {
+      "fullName": "aaaa",
+      "email": "nomifymic123@mailinator.com",
+      "password": "123A@123ASdf",
+      "contactNumber": "1234567890",
+      "recaptcha": "",
+      "id": 9
+    },
+    {
+      "fullName": "ram",
+      "email": "ram@gmail.com",
+      "password": "Ram@123",
+      "contactNumber": "1234567890",
+      "recaptcha": "",
+      "id": 10
+    },
+    {
+      "fullName": "test",
+      "email": "test@gmail.com",
+      "password": "Test@1234",
+      "contactNumber": "1234567890",
+      "recaptcha": "",
+      "id": 11
+    }
+  ]
+}

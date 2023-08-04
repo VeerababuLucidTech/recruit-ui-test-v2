@@ -1,0 +1,49 @@
+{
+  "contracts": [
+    {
+      "id": 1,
+      "name": "Contract 1",
+      "timings" : ["Regular Time","Over Time", "Double Time"],
+      "employees": [
+        {
+          "id": 1,
+          "name": "Employee 1"
+        },
+        {
+          "id": 2,
+          "name": "Employee 2"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Contract 2",
+      "timings" : ["Regular Time","Double Time"],
+      "employees": [
+        {
+          "id": 3,
+          "name": "Employee 3"
+        },
+        {
+          "id": 4,
+          "name": "Employee 4"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Contract 3",
+      "timings" : ["Regular Time", "Over Time"],
+      "employees": [
+        {
+          "id": 5,
+          "name": "Employee 5"
+        },
+        {
+          "id": 6,
+          "name": "Employee 6"
+        }
+      ]
+    }
+  ]
+}

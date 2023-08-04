@@ -1,0 +1,22 @@
+{
+    "DocTableData": [
+        {
+            "id": 1,
+            "name": "LCA-LucidTech",
+            "type": "Monitor",
+            "file": "https://example.com/document1.pdf"
+        },
+        {
+            "id": 2,
+            "name": "LCA-LucidTech",
+            "type": "Signature",
+            "file": "https://example.com/document1.pdf"
+        },
+        {
+            "id": 3,
+            "name": "LCA-LucidTech",
+            "type": "Upload",
+            "file": "https://example.com/document1.pdf"
+        }
+    ]
+}

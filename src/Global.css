@@ -1,0 +1,384 @@
+/* Company Colors */
+
+.company-main-text {
+  color: #172b4d !important;
+}
+
+.company-primary-text {
+  color: #ff6600 !important;
+}
+
+.company-secondary-text {
+  color: #8490a9 !important;
+}
+
+.company-bg {
+  background: #ff6600 !important;
+}
+
+.company-layout-bg {
+  background: #f5f6fa !important;
+}
+
+/* Buttons and Colors */
+.company-primary-btn {
+  background-color: #ff6600 !important;
+  color: #fff !important;
+  padding: 8px 12px !important;
+}
+
+.company-secondary-btn {
+  background-color: #c9d1e2 !important;
+  color: #172b4d !important;
+  padding: 8px 12px !important;
+}
+
+.company-tab-btn {
+  width: 34px !important;
+  height: 34px !important;
+  background-color: #c9d1e2 !important;
+  color: #172b4d !important;
+}
+
+.p-dropdown {
+  height: 44px;
+}
+
+.sidebar-header-status {
+  background: #e1f1ff !important;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 12px !important;
+  color: #347fa9 !important;
+  margin-top: 10px !important;
+  padding: 5px 6px;
+}
+
+.sidebar-header-btn {
+  background-color: #fff !important;
+  color: #293241 !important;
+  font-size: 14px !important;
+  position: absolute;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.06);
+  border-radius: 4px !important;
+  /* position: absolute; */
+  width: auto;
+  height: 32px;
+  margin-right: 4px !important;
+  /* padding: 0px 5px !important; */
+}
+
+.custom-split-button {
+  /* background-color: #fff !important; */
+  color: #293241 !important;
+  /* border: 1px solid #e7e8e4; */
+  margin-top: 8px;
+}
+
+.p-link {
+  padding-top: 2px !important;
+}
+
+.custom-split-button .p-splitbutton-button {
+  background-color: #fff !important;
+  color: #293241 !important;
+}
+
+.custom-split-button .p-splitbutton-menubutton {
+  background-color: #fff !important;
+  color: #293241 !important;
+}
+
+.custom-split-button .p-splitbutton-label {
+  background-color: #fff !important;
+  color: #293241 !important;
+}
+
+.custom-p-button .p-button {
+  background-color: #fff !important;
+  color: #293241 !important;
+  /* padding: 0px 5px !important; */
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.06);
+  width: auto;
+  height: 34px;
+}
+
+.custom-menu .p-menuitem-link {
+  background-color: blue;
+  color: white;
+}
+
+.custom-menu .p-menuitem-link:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+.custom-menu .p-menuitem-link:active {
+  background-color: darkblue;
+  color: white;
+}
+
+.form-btns {
+  position: fixed !important;
+  bottom: 10px;
+  right: 20px;
+}
+
+.date-pick-icon .p-button {
+  color: #42526e !important;
+  background: #ffffff !important;
+  border: 1px solid #bfbaba !important;
+  border-left: 0px !important;
+}
+
+.overflow-text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.p-sidebar-icon {
+  border: 1px solid !important;
+}
+
+/* need update to prime react this is bootstrap ofcanvas */
+.btn-close {
+  margin-top: -50px !important;
+  border: #bfbaba 1px solid !important;
+  border-radius: 15px !important;
+  font-size: 12px;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+/* .resource-form-container {
+    height: calc(120vh - 0px);
+    overflow: hidden !important;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+} */
+.steps-form-container {
+  height: calc(120vh - 0px);
+  overflow: hidden !important;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+.buttons-container {
+  background-color: #f1f1f1;
+  padding: 0.8rem;
+  text-align: end;
+
+  background-color: #f1f1f1;
+  padding: 0.8rem;
+  text-align: end;
+  position: fixed;
+  width: 72%;
+  bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.p-card {
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2) !important
+}
+
+.custom-card .p-card-body {
+  padding: 10px 10px !important;
+}
+
+.custom-card .p-card-content {
+  padding: 0px 0px !important;
+
+}
+
+.custom-timeline .p-timeline-event-marker {
+  border: 1px solid #d0d5de !important;
+  width: 18px !important;
+  height: 18px !important;
+  background-color: #d0d5de !important;
+}
+
+.custom-timeline .p-timeline-event-connector {
+  /* Add your custom styles here */
+  background-color: #d0d5de;
+  width: 3px !important;
+}
+
+.custom-timeline-img {
+  width: 22px;
+  height: 22px;
+  margin-right: 12px;
+}
+
+.custom-notes-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
+}
+
+/* ==========================  Steps css  ========================= */
+
+.multistep-form {
+  display: flex;
+}
+
+.multistep-form-steps {
+  width: 200px;
+  padding-right: 20px;
+  background: white;
+  height: 90vh;
+}
+
+.multistep-form-content {
+  flex: 1;
+}
+
+.multistep-form-content .p-card {
+  padding: 20px;
+}
+
+.multistep-form-content h1 {
+  margin-top: 0;
+}
+
+.multistep-form-content .p-inputtext {
+  width: 100%;
+}
+
+.multistep-form-content .p-button {
+  margin-right: 10px;
+}
+
+.p-steps ul {
+  padding: 0;
+  margin-top: 30px !important;
+  margin-left: 30px !important;
+  list-style-type: none;
+  display: list-item !important;
+}
+
+.p-steps .p-steps-item:before {
+  content: " ";
+  border-top: none !important;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  display: block;
+  position: absolute;
+  margin-top: -1rem;
+}
+
+.p-steps-title {
+  float: right;
+  margin-left: 10px;
+  line-height: 13px;
+  font-size: 14px !important;
+}
+
+.p-menuitem-link {
+  background: transparent !important;
+  border-radius: 0px !important;
+  overflow: visible !important;
+  display: contents !important;
+}
+
+.p-steps-item {
+  position: relative;
+  display: flex;
+  flex: 2 2 auto;
+  margin-bottom: 20px;
+  justify-content: flex-start !important;
+}
+
+.p-button {
+  border: 1px solid #f7f7fa !important;
+  font-size: 12px !important;
+  padding: 5px 12px !important;
+  margin: 0px 10px 0px 0px !important;
+}
+
+.p-steps .p-steps-item.p-highlight .p-steps-title {
+  font-weight: 500;
+  color: #ff6600 !important;
+}
+
+.p-steps .p-steps-item.p-highlight .p-steps-number {
+  background: #fff !important;
+  color: #ff6600 !important;
+  border: 1px solid !important;
+}
+
+.p-component {
+  font-size: 14px !important;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.start,
+.center,
+.end {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
+  background: #ff8634 !important;
+}
+
+.p-inputswitch.p-focus .p-inputswitch-slider {
+  outline: 0 none !important;
+  outline-offset: 0 !important;
+  box-shadow: none !important;
+}
+
+.dropdown-item:active {
+  color: var(--bs-dropdown-link-active-color);
+  text-decoration: none;
+  /* background-color: #ff6600 !important; */
+  background-color: transparent !important;
+}
+
+.radioButtonLable {
+  width: 400px;
+  border: 1px solid #bfbaba;
+  background-color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.my-custom-scrollpanel .p-scrollpanel-bar-y {
+  width: 9px;
+  height: 100%;
+}
+
+/* .custom-sidebar {
+    height: calc(100vh - 20px); 
+    overflow-y: auto;
+  } */
+
+.hide-scrollbar {
+  overflow: hidden;
+}
+
+.horizontalLine {
+    margin: 0em auto 2em;
+    width: 65%;
+}
+
+.custom-timesheet-inputtext {
+    margin: 0;
+    width: 100%;
+  }
+ 
+ 
+

@@ -1,0 +1,52 @@
+{
+    "mailTemplate": [
+        {
+            "id": 1,
+            "name": "Template Name",
+            "subject": "Greetings",
+            "createdBy" : "Abhishek phulhari",
+            "createdOn" : "Mar 01, 2022",
+            "status" : "Active"
+        },
+        {
+          "id": 2,
+          "name": "Template Name",
+          "subject": "Greetings",
+          "createdBy" : "Abhishek phulhari",
+          "createdOn" : "Mar 01, 2022",
+          "status" : "Inactive"
+      },
+      {
+        "id": 3,
+        "name": "Template Name",
+        "subject": "Greetings",
+        "createdBy" : "Abhishek phulhari",
+        "createdOn" : "Mar 01, 2022",
+        "status" : "Active"
+    },
+    {
+      "id": 4,
+      "name": "Template Name",
+      "subject": "Greetings",
+      "createdBy" : "Abhishek phulhari",
+      "createdOn" : "Mar 01, 2022",
+      "status" : "Active"
+  },
+  {
+    "id": 5,
+    "name": "Template Name",
+    "subject": "Greetings",
+    "createdBy" : "Abhishek phulhari",
+    "createdOn" : "Mar 01, 2022",
+    "status" : "Active"
+  },
+  {
+    "id": 6,
+    "name": "Template Name",
+    "subject": "Greetings",
+    "createdBy" : "Abhishek phulhari",
+    "createdOn" : "Mar 01, 2022",
+    "status" : "Inactive"
+  }
+    ]
+  }

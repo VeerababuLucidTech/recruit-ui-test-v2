@@ -1,0 +1,391 @@
+/* Multi steps forms css */
+.indexedStep {
+  color: white;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  background-color: rgba(211, 211, 211, 0.8);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.indexedStep.accomplished {
+  background-color: rgba(0, 116, 217, 1);
+}
+
+/* Lucid Font Sizes */
+p {
+  font-size: 14px !important;
+}
+
+.tasks-board-card {
+  background-color: #d5d7db;
+  /* border: 1px solid #000; */
+  border-radius: 6px;
+  padding: 10px 2px;
+}
+
+.l-fs-6 {
+  font-size: 6px !important;
+}
+
+.l-fs-7 {
+  font-size: 7px !important;
+}
+
+.l-fs-8 {
+  font-size: 8px !important;
+}
+
+.l-fs-9 {
+  font-size: 9px !important;
+}
+
+.l-fs-10 {
+  font-size: 10px !important;
+}
+
+.l-fs-11 {
+  font-size: 11px !important;
+}
+
+.l-fs-12 {
+  font-size: 12px !important;
+}
+
+.l-fs-14 {
+  font-size: 14px !important;
+}
+
+.l-fs-16 {
+  font-size: 16px !important;
+}
+
+.l-fs-18 {
+  font-size: 18px !important;
+}
+
+.l-fs-20 {
+  font-size: 20px !important;
+}
+
+.l-fs-21 {
+  font-size: 21px !important;
+}
+
+.l-fs-22 {
+  font-size: 22px !important;
+}
+
+.l-float-right {
+  float: right !important;
+}
+
+/* Lucid Font Weights */
+
+.l-fw-500 {
+  font-weight: 500 !important;
+}
+
+.l-fw-600 {
+  font-weight: 600 !important;
+}
+
+.l-fw-700 {
+  font-weight: 700 !important;
+}
+
+.l-fw-800 {
+  font-weight: 800 !important;
+}
+
+/* Lucid Font Colors */
+.l-text-orange {
+  color: #FF6600 !important;
+}
+
+.l-color-orange {
+  color: #FF6600 !important;
+}
+
+.l-color-grey {
+  color: #8490A9 !important;
+}
+
+.l-color-widget-lable {
+  color: #8490A9 !important;
+  line-height: 0px !important;
+}
+
+.l-bg-orange {
+  color: #fff !important;
+  background-color: #FF6600 !important;
+}
+
+.l-edit-button {
+  margin-top: 30px !important;
+  float: right;
+}
+
+.l-text-black {
+  color: #000 !important;
+}
+
+.l-bg-grey {
+  background-color: #F5F6FA !important;
+}
+
+/* .table-head-color {
+  color: #424e60 !important;
+} */
+
+.thead,
+th {
+  color: #424e60 !important;
+  background-color: #F5F6FA !important;
+  font-size: 12px !important;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.createIcon {
+  margin-left: -10px;
+
+}
+
+.tenant-icon {
+  margin-right: 5px;
+  border-radius: 6px;
+}
+
+.l-header {
+  border-bottom: 1px solid #cacfe3;
+  height: 58px;
+}
+
+.l-header-title {
+  line-height: 24px;
+  display: contents;
+}
+
+.l-table {
+  background-color: #ffffff;
+}
+
+.dropdown-item a {
+  display: block;
+  width: 100%;
+  padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+  clear: both;
+  font-weight: 400;
+  color: var(--bs-dropdown-link-color);
+  color: black !important;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  font-weight: 500;
+  font-size: 14px;
+
+}
+
+.dropdown-item a:hover {
+  color: black !important;
+}
+
+.dropdown-toggle::after {
+  /* display: none !important; */
+  visibility: hidden !important;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+.l-dropdown-toggle {
+  padding: 0px 0px !important;
+  float: right;
+}
+
+.nav-link {
+  color: #414141 !important;
+  font-weight: 600 !important;
+}
+
+.nav-link.active {
+  color: #FF6600 !important;
+  /* border-bottom: #FF6600 !important; */
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: var(--bs-nav-tabs-link-active-color);
+  background-color: var(--bs-nav-tabs-link-active-bg);
+  /* border-color: var(--bs-nav-tabs-link-active-border-color); */
+  border: none;
+  border-bottom: 2px solid !important;
+}
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+  border: none !important;
+}
+
+
+.l-border-bottom {
+  border-bottom: 1px solid #e3e3e3 !important;
+}
+
+.form-select,
+.form-control {
+  font-size: 14px !important;
+  color: #172b4c !important;
+  background-color: #fafbfc !important;
+}
+
+.form-label,
+label {
+  margin-bottom: 0px !important;
+  font-size: 14px !important;
+  color: #8490A9;
+}
+
+
+
+/* ================================================================================================= */
+.l-text-center {
+  text-align: center !important;
+}
+
+.l-width-50 {
+  width: 50% !important;
+}
+
+.l-width-60 {
+  width: 60% !important;
+}
+
+.l-width-70 {
+  width: 70% !important;
+}
+
+.l-width-75 {
+  width: 75% !important;
+}
+
+.l-width-80 {
+  width: 80% !important;
+}
+
+.l-width-90 {
+  width: 90% !important;
+}
+
+.l-width-95 {
+  width: 95% !important;
+}
+
+
+
+.l-width-100 {
+  width: 100% !important;
+}
+
+.lucid-bg {
+  background-color: #F5F6FA !important;
+}
+
+.l-bg-white {
+  background-color: #fff !important;
+}
+
+.sidebar {
+  background: #ffffff;
+  height: 100vh;
+  transition: all 0.5s;
+  background: #ffffff;
+  color: #6e6969;
+  width: auto;
+  transition: all 0.5s;
+  border-right: 1px solid #e4e6ed;
+}
+
+/* .addDocumentContainer{
+  position: absolute;
+  left: 18em;
+} */
+
+/* lucid border-radius */
+
+.l-br-10 {
+  border-radius: 10px;
+}
+
+/* Lucid Media Queries */
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 480px) {
+  
+} */
+/* @media only screen and (max-width: 600px) {
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+} */
+
+/* =====================================  Lucid Media Queries ===================================== */
+
+/* 320px — 480px: Mobile devices */
+@media (min-width: 320px) and (max-width: 480px) {
+  .l-width-75 {
+    width: 80% !important;
+  }
+
+  .sidebar {
+    height: 100vh;
+  }
+
+  .l-edit-button {
+    margin-top: 8px !important;
+    text-align: center !important;
+    float: none;
+  }
+}
+
+/* 481px — 768px: iPads, Tablets */
+@media (min-width: 481px) and (max-width: 768px) {}
+
+/* 769px — 1024px: Small screens, laptops */
+@media (min-width: 769px) and (max-width: 1024px) {}
+
+/* 1025px — 1200px: Desktops, large screens */
+@media (min-width: 1025x) and (max-width: 1200px) {}
+
+/* 1201px and more —  Extra large screens, TV  */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

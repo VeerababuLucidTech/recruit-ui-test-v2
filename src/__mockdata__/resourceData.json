@@ -1,0 +1,115 @@
+{
+  "companiesResources": [
+    {
+      "resourceId": "CR540",
+      "contractId": "PR-AV540",
+      "woRate": "40hr",
+      "resourceName": "Jhonson",
+      "role": "W2Employee",
+      "joinDate": "05/13/2023",
+      "status": "submited",
+      "vendor":"John"
+    },
+    {
+      "resourceId": "CR541",
+      "contractId": "PR-AV540",
+      "woRate": "40hr",
+      "resourceName": "Jhonson",
+      "role": "W2Employee",
+      "joinDate": "05/13/2023",
+      "status": "submited",
+      "vendor":"John"
+
+    },
+    {
+      "resourceId": "CR542",
+      "contractId": "PR-AV540",
+      "woRate": "40hr",
+      "resourceName": "Jhonson",
+      "role": "W2Employee",
+      "joinDate": "05/13/2023",
+      "status": "submited",
+      "vendor":"John"
+
+    },
+    {
+      "resourceId": "CR543",
+      "contractId": "PR-AV540",
+      "woRate": "40hr",
+      "resourceName": "Jhonson",
+      "role": "W2Employee",
+      "joinDate": "05/13/2023",
+      "status": "submited",
+      "vendor":"John"
+
+    },
+    {
+      "resourceId": "CR544",
+      "contractId": "PR-AV540",
+      "woRate": "40hr",
+      "resourceName": "Jhonson",
+      "role": "W2Employee",
+      "joinDate": "05/13/2023",
+      "status": "submited",
+      "vendor":"John"
+
+    },
+    {
+      "resourceId": "CR545",
+      "contractId": "PR-AV540",
+      "woRate": "40hr",
+      "resourceName": "Jhonson",
+      "role": "W2Employee",
+      "joinDate": "05/13/2023",
+      "status": "submited",
+      "vendor":"John"
+
+    },
+    {
+      "resourceId": "CR546",
+      "contractId": "PR-AV540",
+      "woRate": "40hr",
+      "resourceName": "Jhonson",
+      "role": "W2Employee",
+      "joinDate": "05/13/2023",
+      "status": "submited",
+      "vendor":"John"
+
+    },
+    {
+      "resourceId": "CR547",
+      "contractId": "PR-AV540",
+      "woRate": "40hr",
+      "resourceName": "Jhonson",
+      "role": "W2Employee",
+      "joinDate": "05/13/2023",
+      "status": "submited",
+      "vendor":"John"
+
+
+    }
+    ,
+    {
+      "resourceId": "CR548",
+      "contractId": "PR-AV540",
+      "woRate": "40hr",
+      "resourceName": "Jhonson",
+      "role": "W2Employee",
+      "joinDate": "05/13/2023",
+      "status": "submited",
+      "vendor":"John"
+
+    },
+    {
+      "resourceId": "CR549",
+      "contractId": "PR-AV540",
+      "woRate": "40hr",
+      "resourceName": "Jhonson",
+      "role": "W2Employee",
+      "joinDate": "05/13/2023",
+      "status": "submited",
+      "vendor":"John"
+
+    }
+  ]
+}
