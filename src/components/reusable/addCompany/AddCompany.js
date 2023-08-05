@@ -67,7 +67,7 @@ function AddCompany({
         phoneNumber: formData.phoneNumber,
         fax: formData.fax,
         taxId: formData.taxId,
-        // description: formData.description,
+        description: "Lucid Technologies",
         stateOfIncorporation: formData.stateOfIncorporation,
         taxClassification: formData.taxClassification,
         orgDomains: formData.orgDomains?.map((domainData) => ({
@@ -80,6 +80,12 @@ function AddCompany({
             docNumber: formData.addCompanyDocument?.docNumber,
             documentName: formData.addCompanyDocument?.documentName,
             expirationDate: formData.addCompanyDocument?.expirationDate,
+
+            // Default values for Documents
+            documentType: "pdf",
+            url: "file_location",
+            fileExt: ".pdf",
+            fileType: "type",
           },
         ],
         orgCommunications: [
@@ -102,7 +108,7 @@ function AddCompany({
           }
         ],
       };
-
+      console.log("Payload : ", payload);
       await createCompaniesFormData(payload);
 
       const path = localStorage.getItem("selectedPath");
