@@ -80,7 +80,6 @@ function AddCompany({
             docNumber: formData.addCompanyDocument?.docNumber,
             documentName: formData.addCompanyDocument?.documentName,
             expirationDate: formData.addCompanyDocument?.expirationDate,
-
             // Default values for Documents
             documentType: "pdf",
             url: "file_location",

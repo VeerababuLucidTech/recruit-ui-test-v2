@@ -34,7 +34,7 @@ const LoginForm = ({ handleForgotPasswordClick }) => {
                 } else {
                     const isAuthenticated = await loginUser(values.email, values.password);
                     if (isAuthenticated) {
-                        sessionStorage.setItem('token', '123');
+                        localStorage.setItem('token', '123');
                         navigate('/');
                     } else {
                         msgs.current.show({ severity: 'error', detail: 'Invalid Email or Password...' });
