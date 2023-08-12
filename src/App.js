@@ -12,6 +12,7 @@ function App() {
   return (
     <>
       <div className="lucid-bg">
+        {/* <BrowserRouter basename="/recruit-ui-test-v2"> */}
         <BrowserRouter>
           <Routes>
             <Route exact path="/login" element={<Login />} />

@@ -85,6 +85,7 @@ function AddCompany({
             url: "file_location",
             fileExt: ".pdf",
             fileType: "type",
+            documentContent: "base64"
           },
         ],
         orgCommunications: [
